@@ -167,7 +167,7 @@ function getCoupeNumber(placeNumber) {
 }
 
 console.log(345 % 60);
-*/
+
 
 function getTimeFromMinutes(minutes) {
   let hrs, min;
@@ -224,3 +224,21 @@ function getTimeFromMinutes(minutes) {
 }
 
 console.log(getTimeFromMinutes(150));
+*/
+
+// Место для второй задачи
+function findMaxNumber(a, b, c, d) {
+  if (isNaN(a) || isNaN(b) || isNaN(c) || isNaN(d)) {
+    return 0;
+  }
+  const arr = [];
+  arr.push(a);
+  arr.push(b);
+  arr.push(c);
+  arr.push(d);
+  // console.log(arr[3]);
+  return Math.max(...arr);
+}
+
+console.log(findMaxNumber());
+// console.log(findMaxNumber(1, 4, 5));
