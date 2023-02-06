@@ -28,6 +28,13 @@ aside {
   margin: 0 auto;
   background-color: ivory;
 }
+#btn1 {
+  background-color: cadetblue;
+}
+#btn1:hover {
+  background-color: blueviolet;
+  transition: 300ms;
+}
 .footer {
   height: 10rem;
   background-color: #321;
